@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && next dev",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "next lint",
     "doc-editor:server": "node ./doc-editor/scripts/collab-server.mjs",
     "doc-editor:e2e": "node ./doc-editor/scripts/run-e2e.mjs",
